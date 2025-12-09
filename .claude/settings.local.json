@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(cmake:*)",
+      "Bash(ctest:*)",
+      "Bash(C:/Users/tc/Programming/Cpp/Projects/PolymorphicArray/build/examples/Release/basic_usage.exe)",
+      "Bash(C:UserstcProgrammingCppProjectsPolymorphicArraybuildexamplesReleasebasic_usage.exe)",
+      "Bash(\"C:/Users/tc/Programming/Cpp/Projects/PolymorphicArray/build/examples/Release/advanced_usage.exe\")",
+      "Bash(\"C:/Users/tc/Programming/Cpp/Projects/PolymorphicArray/build/examples/Release/polymorphic_vector_example.exe\")",
+      "Bash(\"C:/Users/tc/Programming/Cpp/Projects/PolymorphicArray/build/examples/Release/animal_food_requirements.exe\")",
+      "Bash(cmd /c \"C:\\Users\\tc\\Programming\\Cpp\\Projects\\PolymorphicArray\\build\\examples\\Release\\animal_food_requirements.exe\")",
+      "Bash(\"C:/Users/tc/Programming/Cpp/Projects/PolymorphicArray/build/examples/Release/alignment_test.exe\")",
+      "Bash(\"C:/Users/tc/Programming/Cpp/Projects/PolymorphicArray/build/examples/Release/copy_move_example.exe\")",
+      "Bash(\"C:/Users/tc/Programming/Cpp/Projects/PolymorphicArray/build/examples/Release/unified_containers_demo.exe\")",
+      "Bash(\"C:/Users/tc/Programming/Cpp/Projects/PolymorphicArray/build/examples/Release/unified_test_suite.exe\")",
+      "Bash(git mv:*)",
+      "Bash(git rm:*)",
+      "Bash(\"C:\\Users\\tc\\Programming\\Cpp\\Projects\\PolymorphicArray\\build\\examples\\Release\\array_vs_vector.exe\")",
+      "Bash(\"C:\\Users\\tc\\Programming\\Cpp\\Projects\\PolymorphicArray\\build\\examples\\Release\\erase_strategies.exe\")",
+      "Bash(C:/Users/tc/Programming/Cpp/Projects/PolymorphicArray/build/examples/Release/no_heap_demo.exe)",
+      "Bash(git branch:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

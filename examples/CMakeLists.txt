@@ -1,0 +1,23 @@
+# Quick start example (matches README)
+add_executable(quickstart quickstart.cpp)
+target_link_libraries(quickstart PRIVATE inline_poly_containers::inline_poly_containers)
+
+# Feature demonstrations
+add_executable(copy_move_semantics features/copy_move_semantics.cpp)
+target_link_libraries(copy_move_semantics PRIVATE inline_poly_containers::inline_poly_containers)
+
+add_executable(simd_alignment features/simd_alignment.cpp)
+target_link_libraries(simd_alignment PRIVATE inline_poly_containers::inline_poly_containers)
+
+add_executable(vector_operations features/vector_operations.cpp)
+target_link_libraries(vector_operations PRIVATE inline_poly_containers::inline_poly_containers)
+
+add_executable(no_heap_demo features/no_heap_demo.cpp)
+target_link_libraries(no_heap_demo PRIVATE inline_poly_containers::inline_poly_containers)
+
+# Use case examples
+add_executable(entity_component_system use_cases/entity_component_system.cpp)
+target_link_libraries(entity_component_system PRIVATE inline_poly_containers::inline_poly_containers)
+
+add_executable(array_vs_vector use_cases/array_vs_vector.cpp)
+target_link_libraries(array_vs_vector PRIVATE inline_poly_containers::inline_poly_containers)
